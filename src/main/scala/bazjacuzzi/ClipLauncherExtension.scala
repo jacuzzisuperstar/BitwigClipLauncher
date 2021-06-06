@@ -8,7 +8,7 @@ import com.bitwig.extension.controller.{ControllerExtension, ControllerExtension
 import scala.collection.mutable
 
 
-case class TrackLauncherExtension(definition: TrackLauncherExtensionDefinition, host: ControllerHost)
+case class ClipLauncherExtension(definition: ClipLauncherExtensionDefinition, host: ControllerHost)
   extends ControllerExtension(definition, host)
     with ShortMidiMessageReceivedCallback
     with ClipLauncherSlotBankPlaybackStateChangedCallback
